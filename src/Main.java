@@ -25,7 +25,8 @@ public class Main {
         System.out.println(Arrays.deepToString(arrays));
 
         // vi kan ändra en char så här:
-        arrays[0][1] = 'o';
+        arrays[0][1] = 'o'; // Den första hakparentesen [0] bestämmer vilken array vi kommer åt;
+        // den andra [1] vilken char i arrayen.
 
         // ...och skriver ut resultatet
         System.out.println(Arrays.deepToString(arrays));
